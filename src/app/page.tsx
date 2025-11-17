@@ -34,7 +34,7 @@ export default function Home() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (username === 'admin' && password === '1234') {
+    if (username === 'katy' && password === 'katy@123') {
       router.push('/dashboard');
     } else {
       alert(t.error);

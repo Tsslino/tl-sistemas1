@@ -295,7 +295,7 @@ export default function Dashboard() {
   // Funções Modal de Autorização
   const handleAuthSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (authUsername === 'admin' && authPassword === '1234') {
+    if (authUsername === 'katy' && authPassword === 'katy@123') {
       if (authAction) {
         authAction();
       }
